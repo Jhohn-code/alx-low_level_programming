@@ -8,10 +8,10 @@ int main(void)
 {
 	int n;
 
-	for (n = 0; n <= 9; n++)
+	for (n = 11; n <= 20; n++)
 	{
 		putchar(n);
-		if (n != 8)
+		if (n != 19)
 		{
 			putchar(',');
 			putchar(' ');
