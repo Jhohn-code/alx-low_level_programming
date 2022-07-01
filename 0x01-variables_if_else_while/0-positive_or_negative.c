@@ -7,6 +7,7 @@
 /* betty style doc for function main goes there */
 
 /**
+ * main - assign a random number to int
  * int- This is the main integer
  * if - define it
  */
@@ -17,12 +18,12 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	if (n>0){
-	printf("This number: %d is positive\n");
-	} else if (n=0){
-	printf("This number: %d is zero\n");
+	if (n > 0){
+	printf("This number: %d is positive\n", n);
+	} else if (n == 0){
+	printf("This number: %d is zero\n", n);
 	} else {
-	printf("This number: %d is negative\n");
+	printf("This number: %d is negative\n", n);
 	}
 	return (0);
 }
