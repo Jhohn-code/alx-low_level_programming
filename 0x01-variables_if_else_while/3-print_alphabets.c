@@ -8,6 +8,7 @@
 int main(void)
 {
 	int lc, hc;
+
 	for (lc = 97; lc <= 122; lc++)
 	{
 		putchar(lc);
