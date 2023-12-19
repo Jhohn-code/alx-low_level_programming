@@ -21,13 +21,12 @@ int main(void)
 		}
 		else
 		{
-			printf("%ld ", j);
+			printf("%ld\n", j);
 		}
 		next = j + k;
 		j = k;
 		k = next;
 	}
 
-	printf("\n");
 	return (0);
 }
